@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>wxpython</id>
+    <title>wxpython</title>
+    <version>3.0.0.0</version>
+    <authors>
+    Robin Dunn, 
+    </authors>
+    <owners>ariovistus</owners>
+    <summary>wxpython</summary>
+    <description>wxpython</description>
+    <copyright></copyright>
+    <projectUrl>http://www.wxpython.org/</projectUrl>
+    <licenseUrl>http://www.wxwidgets.org/about/licence/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="python2-x86_32" version="2.7.8" />
+    </dependencies>
+  </metadata>
+</package>

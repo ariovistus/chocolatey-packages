@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>gnuradio</id>
+    <title>gnuradio</title>
+    <version>3.7.3</version>
+    <authors>
+    Eric Blossom, 
+    Matt Ettus, 
+    John Gilmore, 
+    Stephane Fillod, 
+    Chuck Swiger, 
+    Ramakrishnan Muthukrishnan,
+    Martin Dudok van Heel,
+    Bob McGwier,
+    Krzysztof Kamieniecki,
+    Andrew Thomas Beck,
+    Joshua Lackey,
+    Johnathan Corgan,
+    Bdale Garbee,
+    Tom Rondeau 
+    </authors>
+    <owners>ariovistus</owners>
+    <summary>gnuradio</summary>
+    <description>gnuradio</description>
+    <copyright></copyright>
+    <projectUrl>http://gnuradio.org/</projectUrl>
+    <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/__NAME__/__NAME__.png</iconUrl>-->
+    <dependencies>
+      <dependency id="python2-x86_32" version="2.7.8" />
+      <dependency id="pygtk-all-in-one_win32_py2.7" version="2.24.2.2014021601" />
+      <dependency id="wxpython" />
+      <dependency id="numpy" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+</package>
