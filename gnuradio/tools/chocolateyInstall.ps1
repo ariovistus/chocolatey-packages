@@ -1,4 +1,7 @@
-﻿choco python cheetah lxml
+﻿$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + `
+    ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+choco python cheetah 
+choco python lxml
 $packageName = 'gnuradio'
 $installerType = 'EXE' 
 $url = 'http://files.ettus.com/binaries/gnuradio/gnuradio_v3.7.3/gnuradio_3.7.3_Win32.exe' 
@@ -45,10 +48,6 @@ param(
     } else {
       Set-EnvironmentVariable -Name $path -Value $actualPath -Scope $pathType
     }
-
-    #add it to the local path as well so users will be off and running
-    $envPSPath = get-content env:\$path
-    set-content env:\$path ($envPSPath + $statementTerminator + $pathToInstall)
   }
 }
 
