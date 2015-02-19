@@ -15,7 +15,7 @@
         }
 }
 
-$url = "http://sourceforge.net/projects/numpy/files/NumPy/1.8.1/numpy-1.8.1-win32-superpack-python2.7.exe/download"
+$url = "http://sourceforge.net/projects/numpy/files/NumPy/1.9.1/numpy-1.9.1-win32-superpack-python2.7.exe/download"
 $url = Get-RedirectedUrl -URL $url
 $packageName = 'numpy'
 $installerType = 'EXE' 
